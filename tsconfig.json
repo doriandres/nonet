@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "declaration": true,
+      "module": "CommonJS",
+      "declarationMap": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,      
+    },
+    "exclude": ["node_modules"],
+    "include": ["src/**/*"]
+  }
